@@ -3,7 +3,7 @@ import { GoogleGenAI } from "@google/genai";
 import { MockupScene } from "../types";
 
 // The API key is injected via the environment.
-const API_KEY = process.env.API_KEY || '';
+const API_KEY = import.meta.env.VITE_API_KEY || "";
 
 const ai = new GoogleGenAI({ apiKey: API_KEY });
 
