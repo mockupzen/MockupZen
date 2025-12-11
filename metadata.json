@@ -1,0 +1,5 @@
+{
+  "name": "MockupGen",
+  "description": "A premium micro-SaaS tool that generates professional e-commerce product mockups from a single photo using Google Gemini AI.",
+  "requestFramePermissions": []
+}
